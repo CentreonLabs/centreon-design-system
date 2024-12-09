@@ -1,0 +1,57 @@
+@layer base {
+	:root {
+		--Text-Text: 0, 0, 0;
+		--Text-Invert: 255, 255, 255;
+		--Text-Text-Secondary: 127, 127, 127;
+		--Text-Disabled: 187, 175, 230;
+		--Text-Primary: 29, 1, 131;
+
+		--Surface-Primary: 29, 1, 131;
+		--Surface-Primary-Hover: 136, 103, 254;
+		--Surface-Primary-Pressed: 80, 22, 253;
+		--Surface-Primary-Focused: 80, 22, 253;
+		--Surface-Disabled: 233, 230, 243;
+		--Surface-Default: 255, 255, 255;
+		--Surface-Contrast-Default: 0, 0, 61;
+		--Surface-Divider: 170, 170, 170;
+		--Surface-Gray: 212, 212, 212;
+		--Surface-Contrast-Gray: 71, 71, 71;
+		--Surface-Primary-Tonal: 188, 179, 218;
+		--Surface-Primary-Focused-Tonal: 193, 180, 241;
+		--Surface-Primary-Pressed-Tonal: 193, 180, 241;
+		--Surface-Primary-Hover-Tonal: 220, 210, 255;
+		--Surface-Primary-Focused-Effect: 46, 2, 208, 0.12;
+		--Surface-Primary-Pressed-Effect: 46, 2, 208, 0.12;
+		--Surface-Primary-Hover-Effect: 80, 32, 253, 0.08;
+		--Surface-Disabled-Effect: 29, 1, 131, 0.08;
+		--Surface-Tooltip: 255, 255, 255;
+	}
+
+	:root[class~="dark"] {
+		--Text-Text: 255, 255, 255;
+		--Text-Invert: 255, 255, 255;
+		--Text-Disabled: 121, 107, 171;
+		--Text-Primary: 195, 179, 254;
+		--Text-Text-Secondary: 146, 146, 146;
+
+		--Surface-Primary: 133, 102, 245;
+		--Surface-Primary-Hover: 152, 124, 254;
+		--Surface-Primary-Pressed: 116, 78, 253;
+		--Surface-Primary-Focused: 116, 78, 253;
+		--Surface-Disabled: 54, 35, 123;
+		--Surface-Default: 37, 37, 37;
+		--Surface-Contrast-Default: 0, 0, 0;
+		--Surface-Divider: 170, 170, 170;
+		--Surface-Gray: 71, 71, 71;
+		--Surface-Contrast-Gray: 212, 212, 212;
+		--Surface-Primary-Tonal: 54, 35, 123;
+		--Surface-Primary-Focused-Tonal: 44, 28, 99;
+		--Surface-Primary-Pressed-Tonal: 44, 28, 99;
+		--Surface-Primary-Hover-Tonal: 33, 21, 75;
+		--Surface-Primary-Focused-Effect: 116, 78, 253, 0.08;
+		--Surface-Primary-Pressed-Effect: 116, 78, 253, 0.08;
+		--Surface-Primary-Hover-Effect: 152, 124, 254, 0.08;
+		--Surface-Disabled-Effect: 80, 32, 253, 0.12;
+		--Surface-Tooltip: 71, 71, 71;
+	}
+}
